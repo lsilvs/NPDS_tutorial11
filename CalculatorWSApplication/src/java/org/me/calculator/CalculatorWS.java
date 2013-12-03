@@ -24,4 +24,13 @@ public class CalculatorWS {
     public String hello(@WebParam(name = "name") String txt) {
         return "Hello " + txt + " !";
     }
+
+    /**
+     * Web service operation
+     */
+    @WebMethod(operationName = "add")
+    public int add(@WebParam(name = "i") int i, @WebParam(name = "j") int j) {
+        int k = i + j;
+        return k;
+    }
 }
