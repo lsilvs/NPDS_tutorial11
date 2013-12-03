@@ -1,2 +1,5 @@
 .DS_Store
 /CalculatorWSApplication/nbproject/private/
+/CalculatorWSApplication/build/
+/CalculatorWS_Client_Application/nbproject/private/
+/CalculatorWS_Client_Application/build/
